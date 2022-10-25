@@ -1,0 +1,50 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/foto7.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+    
+}
+.main-container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-container > .login,
+.main-container > .hero-body{
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.form-inline{
+	display: inline-flex;
+}
+
+.title{
+	color: blue;
+}
+
+.main-container{
+	background-image: url('../img/gafas4.webp');
+	background-size: cover;
+	background-position: center;
+}
+
+.label{
+  color: rgb(255, 255, 255);
+  margin-left: 45%;
+}
+
+.inicio{
+	color: rgb(255, 255, 255);
+	margin-left: 20%;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
